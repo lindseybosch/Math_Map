@@ -1,0 +1,62 @@
+	$main-font:  Calligraffitti, monospace;
+    $text-pink: #ff00ff;
+    $body-pink: #ffe4c4;
+    $outline: #21274B;
+    $Winner: #D41FAE;
+
+
+
+h1 {
+	color: $text-pink;
+	text-align: center;
+}
+
+#mainBoard {
+	height: 700px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+
+.box {
+	width: 20%;
+	height: 20%;
+	float: left;
+	border: 1px solid black;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #22B0D4;
+}
+
+#boxTwo, #boxSeven, #boxNine, #boxTwelve, #boxFourteen, #boxSeventeen, #boxNineteen, #boxEightteen {
+	// margin-right: 1px;
+	background-color: transparent;
+	border: none;
+}
+
+
+
+#boxThirteen {
+	// float: right;
+	// display: inline-block;
+	// background-color: $Winner;
+	// border: 1px solid;
+	background-color: $Winner;
+	border: transparent;
+}
+
+#boxOne, #boxFive, #boxTwentyOne, #boxTwentyFour {
+	background-color: #7832BD;
+}
+
+#boxThree, #boxEleven, #boxTwenty {
+	background-color: #60D434;
+}
+
+#boxTwentyTwo, #boxFifteen {
+	background-color: #2BBDB0;
+}
