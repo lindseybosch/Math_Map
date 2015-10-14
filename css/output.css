@@ -1,40 +1,58 @@
-h1 {
-  color: #ff00ff;
-  text-align: center; }
+#gameSign {
+  display: block;
+  margin: 0 auto; }
 
 #mainBoard {
   height: 700px;
   width: 960px;
-  margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 200px; }
+
+currenBox {
+  background-color: red; }
+
+.QBox {
+  float: right;
+  margin-top: 80px;
+  border: 2px solid grey; }
+
+#QBox1 {
+  margin-right: 15%; }
+
+#QBox2 {
+  margin-right: 1px; }
 
 .box {
   width: 20%;
   height: 20%;
   float: left;
-  border: 1px solid black;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-color: #22B0D4; }
+  box-sizing: border-box; }
 
-#boxTwo, #boxSeven, #boxNine, #boxTwelve, #boxFourteen, #boxSeventeen, #boxNineteen, #boxEightteen {
+#noBox1, #noBox2, #noBox3, #noBox4, #noBox5, #noBox6, #noBox7 {
   background-color: transparent;
   border: none; }
 
-#boxThirteen {
+#box1 {
+  text-align: center;
+  font-size: 50px; }
+
+#box17 {
   background-color: #D41FAE;
   border: transparent; }
 
-#boxOne, #boxFive, #boxTwentyOne, #boxTwentyFour {
+#box1, #box5, #box9, #box13 {
   background-color: #7832BD; }
 
-#boxThree, #boxEleven, #boxTwenty {
+#box2, #box6, #box10, #box14 {
   background-color: #60D434; }
 
-#boxTwentyTwo, #boxFifteen {
+#box3, #box7, #box11, #box15 {
   background-color: #2BBDB0; }
+
+#box4, #box8, #box12, #box16 {
+  background-color: grey; }
 
 /*# sourceMappingURL=output.css.map */
