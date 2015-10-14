@@ -6,9 +6,9 @@
 
 -[x] As a player I want to be able to start the game so that I can start playing.
  
--[] As a player I want to be given a question so that I can possible move forward if answered correctly.
+-[x] As a player I want to be given a question so that I can possible move forward if answered correctly.
 
--[] As a player I want to have a place to answer the question.
+-[x] As a player I want to have a place to answer the question.
 
 -[x] As a player I want to be told wither or not my answer is correct. 
 
@@ -32,11 +32,8 @@
 
 -[x] As a player I want to be able to keep answering questions until I reach the end.
 
--[] As a player I want to be told I won and what my price was when I reach the end so I can end the game.
+-[] As a player I want to be told I won and possible how many points I got when I reach the end so I can end the game.
 
-
-
-**Thing that I have done : **
 
 
 **Thing that I do not need to worry about: **
@@ -45,4 +42,14 @@
 
 **ICE BUCKED**
 
--[x] As a player I want to have the option of restarting the game so I can play again 
+-[] give player the option to end the game. 
+-[] explain game and story line in the begining of game. 
+-[x] As a player I want to have the option of restarting the game so I can play again
+-[] As a player I want the car to face different directions when I am moving right, up and left on the board, so it will look like the car is going in the correct direction 
+-[] clear text box
+-[] change fast pass box to only as * questions and all the other spots ask - and +
+-[] change the size of my path boxes 
+-[] fix main box position 
+-[] fix the start button bug 
+-[] change color scheme of game 
+-[] add a box that keeps track of the numbers you are submitting and that way you can add up points  
