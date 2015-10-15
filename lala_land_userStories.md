@@ -32,7 +32,7 @@
 
 -[x] As a player I want to be able to keep answering questions until I reach the end.
 
--[] As a player I want to be told I won and possible how many points I got when I reach the end so I can end the game.
+-[x] As a player I want to be told I won when I reach the end so I can end the game.
 
 
 
@@ -65,3 +65,8 @@
 ~~-[] change color scheme of game ~~
 
 -[] add a box that keeps track of the numbers you are submitting and that way you can add up points  
+
+-[x] clear click to start, text once the game begins. 
+-[x] add detour and fastpass images to board
+-[x] clear start here box when player begins game
+-[x] fix sizes of message box depending on the message

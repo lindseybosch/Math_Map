@@ -1,27 +1,42 @@
+@font-face {
+  src: url(/assets/KGTrueColors.ttf);
+  font-family: KGTrueColors; }
 body {
   background-image: url("/assets/Board.jpg");
   background-size: cover; }
 
 .QBox {
   float: right;
-  margin-top: 80px;
-  margin-right: 10%;
+  margin-top: 259px;
+  margin-right: 12%;
   height: 280px;
   width: 200px;
   text-align: center;
-  font-size: 20px; }
+  font-family: KGTrueColors; }
+
+#pointBox {
+  border: 2px solid black;
+  margin-bottom: 65px;
+  margin-top: -174px;
+  margin-left: 21px;
+  height: 103px;
+  width: 138px; }
 
 #QBox1 {
   border: 2px dashed grey;
+  border-radius: 15px;
   width: 200px;
-  height: 50px;
+  height: 98px;
   background-color: #C6E8A7;
   display: inline-block;
   text-align: center;
-  line-height: 50px; }
+  line-height: 50px;
+  font-family: KGTrueColors;
+  font-size: 40px; }
 
 #QBox2 {
   border: 2px dashed grey;
+  border-radius: 15px;
   width: 200px;
   height: 80px;
   background-color: #D7A4E8;
@@ -29,16 +44,22 @@ body {
   text-align: center;
   line-height: 80px;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 22px; }
 
 #QBox3 {
   border: 2px dashed grey;
+  border-radius: 15px;
   width: 200px;
   height: 100px;
   background-color: #A8E6E8;
   display: inline-block;
   text-align: center;
-  line-height: 50px; }
+  line-height: 50px;
+  font-size: 25px; }
+
+#inputBox, #submitButton {
+  height: 27px; }
 
 #mainBoard {
   height: 650px;
@@ -52,6 +73,8 @@ body {
   width: 20%;
   height: 20%;
   float: left;
+  border-radius: 12px;
+  border: 2px dashed #A8E6E8;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -83,5 +106,14 @@ body {
 
 #box4, #box8, #box12, #box16 {
   background-color: #999999; }
+
+#box4, #box9, #box15 {
+  background-image: url("/assets/Detour.png");
+  background-position: center; }
+
+#box3, #box8, #box13 {
+  background-image: url("/assets/fastPass.png");
+  background-size: cover;
+  background-position: center; }
 
 /*# sourceMappingURL=output.css.map */
