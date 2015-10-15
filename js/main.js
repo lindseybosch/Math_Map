@@ -6,6 +6,7 @@ var getAnswer;
 var promptInput;
 var i = 1;
 var computedAnswer;
+var totalPoints = 0;
 var $questionBox = $('#QBox2'); 
 var $inputBox = $('#inputBox');
 var $submitButton = $('#submitButton');
@@ -101,7 +102,8 @@ var answerCorrect = function(){
 		currentBox.html("");
 		$('#QBox1').html("Correct!").css({'background-color': 'pink', 'height': '50px'});
 		render();	
-	}	
+	}
+	addPoint();	
 
 }
 
@@ -116,7 +118,7 @@ var nextQuestion = function(){
 };
 
 var fastPass = function () {
-	$('#QBox1').html(" You got fast pass access!").css({'background-color':'pink', 'height': '180px', 'margin-top': '-44px'});
+	$('#QBox1').html(" You got fast pass access!").css({'background-color':'#FFBA54', 'height': '180px', 'margin-top': '-44px', 'font-color': 'red'});
 	i+=2;
 	currentBox.html("");
 	render();		
@@ -143,12 +145,19 @@ var missedDetour = function(){
 	render();
 };
 
-// var addPoint = function (){
+var addPoint = function (){
+	var p = parseInt($inputBox.val());
+	totalPoints = totalPoints + p;
+	console.log(totalPoints);
+	$('#pointBox').html(totalPoints);
+};
 
-// }
 
 
-
+// add to total points 
+// when there is a value inputed into the inputbox 
+// take that value and add it up 
+// then display it in pointBox HTML 
 
 
 

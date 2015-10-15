@@ -31,12 +31,19 @@ body {
 }
 
 #pointBox {
-	border: 2px solid black;
-	margin-bottom: 65px;
-	margin-top: -174px;
+	border: 2px dashed gray;
+	background-color: white;
+	transparent: 20%;
+	margin-bottom: 107px;
+	margin-top: -191px;
 	margin-left: 21px;
 	height: 103px;
 	width: 138px;
+	font-family: KGTrueColors;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 6%;
+	padding-bottom: 0%;
 }
 
 #QBox1{
