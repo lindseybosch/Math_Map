@@ -42,14 +42,26 @@
 
 **ICE BUCKED**
 
--[] give player the option to end the game. 
+-[] give player the option to end the game.
+
+-[x] Give player option to enter instead of pressing submit button
+ 
 -[] explain game and story line in the begining of game. 
+
 -[x] As a player I want to have the option of restarting the game so I can play again
--[] As a player I want the car to face different directions when I am moving right, up and left on the board, so it will look like the car is going in the correct direction 
--[] clear text box
--[] change fast pass box to only as * questions and all the other spots ask - and +
--[] change the size of my path boxes 
--[] fix main box position 
+
+-[x] As a player I want the car to face different directions when I am moving right, up and left on the board, so it will look like the car is going in the correct direction 
+
+-[x] clear text box
+
+-[] change fast pass box to only ask * questions and all the other spots ask - and +
+
+-[x] change the size of my path boxes 
+
+-[x] fix main box position 
+
 -[] fix the start button bug 
--[] change color scheme of game 
+
+~~-[] change color scheme of game ~~
+
 -[] add a box that keeps track of the numbers you are submitting and that way you can add up points  

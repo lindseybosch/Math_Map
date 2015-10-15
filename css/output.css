@@ -1,16 +1,6 @@
-#gameSign {
-  display: block;
-  margin: 0 auto; }
-
-#mainBoard {
-  height: 700px;
-  width: 960px;
-  margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 200px; }
-
-currenBox {
-  background-color: red; }
+body {
+  background-image: url("/assets/Board.jpg");
+  background-size: cover; }
 
 .QBox {
   float: right;
@@ -50,6 +40,14 @@ currenBox {
   text-align: center;
   line-height: 50px; }
 
+#mainBoard {
+  height: 650px;
+  width: 950px;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 139px; }
+
 .box {
   width: 20%;
   height: 20%;
@@ -67,8 +65,12 @@ currenBox {
   font-size: 50px; }
 
 #box17 {
-  background-color: #B490FF;
-  border: transparent; }
+  border: transparent;
+  background-image: url("/assets/winner.jpg");
+  max-height: 100%;
+  max-width: 100%;
+  background-size: 184px;
+  background-position: center; }
 
 #box1, #box5, #box9, #box13 {
   background-color: #FFEAE4; }

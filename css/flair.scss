@@ -9,23 +9,19 @@
     $QBox3: #A8E6E8;
 
 
-#gameSign {
-	display: block;
-	margin: 0 auto;
+body {
+	background-image: url("/assets/Board.jpg");
+	background-size: cover;
 }
 
-#mainBoard {
-	height: 700px;
-    width: 960px;
-    // margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 200px;
-}
+// #gameSign {
+// 	display: block;
+// 	margin-top: 0;
+// 	margin-bottom: 0;
+// 	margin-right: 12%;
+// 	margin-left: 16%;
+// }
 
-currenBox {
-	background-color: red;
-}
 
 .QBox{
 	float: right;
@@ -72,6 +68,17 @@ currenBox {
 }
 
 
+#mainBoard {
+	height: 650px;
+    width: 950px;
+    // margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 139px;
+}
+
+
 .box {
 	width: 20%;
 	height: 20%;
@@ -92,8 +99,13 @@ currenBox {
 }
 
 #box17 { 
-	background-color: $Winner;
+	// background-color: $Winner;
 	border: transparent;
+	background-image: url("/assets/winner.jpg");
+	max-height:100%;
+	max-width:100%;
+	background-size: 184px;
+	background-position: center;
 }
 
 #box1, #box5, #box9, #box13 {
