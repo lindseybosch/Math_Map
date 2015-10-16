@@ -154,11 +154,6 @@ var addPoint = function (){
 
 
 
-// add to total points 
-// when there is a value inputed into the inputbox 
-// take that value and add it up 
-// then display it in pointBox HTML 
-
 
 
 

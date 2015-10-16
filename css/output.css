@@ -16,8 +16,6 @@ body {
 
 #pointBox {
   border: 2px dashed gray;
-  background-color: white;
-  transparent: 20%;
   margin-bottom: 107px;
   margin-top: -191px;
   margin-left: 21px;
@@ -74,7 +72,7 @@ body {
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 139px; }
+  padding-top: 121px; }
 
 .box {
   width: 20%;
