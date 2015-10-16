@@ -2,7 +2,7 @@
   src: url(/assets/KGTrueColors.ttf);
   font-family: KGTrueColors; }
 body {
-  background-image: url("/assets/Board.jpg");
+  background-image: url("../assets/Board.jpg");
   background-size: cover; }
 
 .QBox {
