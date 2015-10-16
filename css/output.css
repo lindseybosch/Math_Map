@@ -96,7 +96,7 @@ body {
 
 #box17 {
   border: transparent;
-  background-image: url("/assets/winner.jpg");
+  background-image: url("../assets/winner.jpg");
   max-height: 100%;
   max-width: 100%;
   background-size: 184px;
@@ -115,11 +115,11 @@ body {
   background-color: #999999; }
 
 #box4, #box9, #box15 {
-  background-image: url("/assets/Detour.png");
+  background-image: url("../assets/Detour.png");
   background-position: center; }
 
 #box3, #box8, #box13 {
-  background-image: url("/assets/fastPass.png");
+  background-image: url("../assets/fastPass.png");
   background-size: cover;
   background-position: center; }
 
