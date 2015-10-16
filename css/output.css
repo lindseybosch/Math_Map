@@ -16,6 +16,8 @@ body {
 
 #pointBox {
   border: 2px dashed gray;
+  background-color: white;
+  transparent: 20%;
   margin-bottom: 107px;
   margin-top: -191px;
   margin-left: 21px;
@@ -72,7 +74,7 @@ body {
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 121px; }
+  padding-top: 139px; }
 
 .box {
   width: 20%;
@@ -116,7 +118,7 @@ body {
   background-image: url("../assets/Detour.png");
   background-position: center; }
 
-#box3, #box8, #box13 {
+#box3, #box8, #box14 {
   background-image: url("../assets/fastPass.png");
   background-size: cover;
   background-position: center; }
