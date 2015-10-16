@@ -21,10 +21,10 @@ var render = function(){
 	if (i === 1) {
 		$('#QBox1').html('');
 		currentBox = $("#box" +i); 
-		currentBox.html('<img src="../assets/schoolbus.png">'); 
+		currentBox.html('<img src="./assets/schoolbus.png">'); 
 	} else {
 		currentBox = $("#box" +i); 
-		currentBox.html('<img src="../assets/schoolbus.png">'); 
+		currentBox.html('<img src="./assets/schoolbus.png">'); 
 	}
 	askQuestion();
 };	
