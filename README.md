@@ -4,6 +4,7 @@
 
 - HTML
 - Javascript
+- JQuery
 - CSS
 	- sass	
 	- animate.css 
