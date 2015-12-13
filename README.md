@@ -41,7 +41,7 @@ I would like to make my game a responsive app. I would also like to give the pla
 
 - [x] As a player I want to be able to move one space forward if I did not answer the Fast pass question correctly question correctly so I can continue the game. 
 
-- [x] As a player I want to be able to move 2 spaces forward if I hit a fast pass block and answered the question correct so I can continue with the game.
+-  [x] As a player I want to be able to move 2 spaces forward if I hit a fast pass block and answered the question correct so I can continue with the game.
 
 - [x] As a player I want to be told when I arrive at a detour block so that I can have a understanding of that that intails. 
 
@@ -79,7 +79,7 @@ I would like to make my game a responsive app. I would also like to give the pla
 
 - [x] fix main box position 
 
-  [] fix the start button bug 
+- [] fix the start button bug 
 
 - [x] change color scheme of game
 
