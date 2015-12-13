@@ -57,11 +57,11 @@ I would like to make my game a responsive app. I would also like to give the pla
 
 **Thing that I do not need to worry about: **
 
-[] As a player I want to be able get directions on how to play the game , to have a better understanding on how to the game is played.
+[ ] As a player I want to be able get directions on how to play the game , to have a better understanding on how to the game is played.
 
 **ICE BUCKED**
 
-[] give player the option to end the game.
+[ ] give player the option to end the game.
 
 - [x] Give player option to enter instead of pressing submit button
  
