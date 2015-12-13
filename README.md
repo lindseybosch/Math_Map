@@ -79,7 +79,7 @@ I would like to make my game a responsive app. I would also like to give the pla
 
 - [x] fix main box position 
 
-- [] fix the start button bug 
+  [] fix the start button bug 
 
 - [x] change color scheme of game
 
